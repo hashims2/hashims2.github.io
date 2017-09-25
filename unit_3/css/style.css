@@ -1,0 +1,26 @@
+body {
+	background: url("../images/honeycomb_bee_background.jpg");
+	background-size: cover;
+	text-align:center;
+	color: #fff;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 22px
+	 }
+	 p {
+	 	padding-left: 250px;
+	 	padding-right: 250px;
+	 }
+ul {
+	list-style-type: none;
+	font-weight: 700;
+	margin-bottom: 200px;
+}
+#slogan{
+	font-style: italic;
+	font-size: 32px;
+	font-weight: 700;
+	margin-bottom: 50px;
+}
+#email{
+color: #fff;
+}
