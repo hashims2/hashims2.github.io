@@ -1,32 +1,33 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif);
 
 body {
+	font-family: 'PT Sans', sans-serif;
 	background: url("../images/honeycomb_bee_background.jpg");
 	background-size: cover;
 	text-align:center;
 	color: #fff;
-	font-family: helvetica, arial, sans-serif;
-	font-size: 22px
 	 }
 	 p {
-	 	font-family: 'PT Sans';
+	 	font-family: 'PT Sans', sans-serif;
+	 	font-size: 1.2em;
 	 	padding-left: 250px;
 	 	padding-right: 250px;
-	 }
+	 		 }
 ul {
+	font-family: 'PT Serif', sans-serif;
+	font-size: 1.7em;
 	list-style-type: none;
 	margin-bottom: 200px;
 }
 #slogan{
-	font-family: 'PT Serif';
+	font-family: 'PT Serif', sans-serif;
 	font-style:;
-	font-size: 2em;
-	font-weight: 700;
+	font-size: 2.5em;
 	margin-bottom: 50px;
 }
-#main{
+#sub{
 font-weight: 700;
-font-size: 3em
+font-size: 1.7em
 }
 #email{
 color: #fff;
