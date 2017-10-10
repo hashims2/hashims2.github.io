@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif);
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 11px;
+	background-size: cover;
+	text-align:center;
+	color: #fff;
+}
+ul li {
+	font-family: 'PT Serif', sans-serif;
+	font-size: 1.7em;
+	list-style-type: none;
+	display: inline;
+	padding: 50px;
+}
+#slogan{
+	font-family: 'PT Serif', sans-serif;
+	font-size: 4em;
+	margin-bottom: 20px;
+}
+h2 {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 2.1em;
+}
+h3 {
+	font-family: 'PT Serif', sans-serif;
+	font-size: 1.75em;
+}
+p {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.7em;
+}
+#email{
+color: #fff;
+}
+#wrapper {
+	background-color: 
+	width:;
+	margin: 0 auto;
+}
+#hero_image {
+	background: url("../images/honeycomb_bee_background.jpg");
+	max-width: 100%;
+    max-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+div {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
