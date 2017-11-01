@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif);
+
+body {
+	margin: 0px;
+    min-height: 100%;
+    width: 100%;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 11px;
+	background-size: cover;
+	text-align:center;
+	color: #fff;
+}
+
+a {
+	font-family: 'PT Serif', serif;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.5em;
+	display: block;
+	float: right;
+	padding: 1em;
+	background: #edbd3d;
+	outline: .25em solid #f3d05b;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+a:hover {
+	background-color: #e8aa20;
+}
+
+h2 {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 2.5em;
+	padding: 1em 7em 1em 7em;
+}
+h3 {
+	font-family: 'PT Serif', sans-serif;
+	font-size: 1.5em;
+	padding: 1em 0em 0em 0em;
+}
+p {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.7em;
+}
+
+header {
+	background-color: #f3d05b;
+	border: none;
+	padding: 1em;
+}
+nav {
+	background-color: none;
+	border: none;
+	padding: 1em;
+}
+footer {
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1em;
+	background-color: #2a2a2a;
+	border: none;
+	padding: 3.5em;
+}
+div {
+	background-color: #FFE2B8;
+	border: none;
+	padding: 20px;
+}
+#hum {
+	max-width: 75%;
+    max-height: 75%;
+    padding: 1em 1em 0em 1em;
+}
+
+#action{
+	font-family: 'PT Serif', sans-serif;
+	color: #fff;
+	text-decoration: none;
+	font-size: 2.5em;
+	display: inline-block;
+	float: none;
+	padding: .5em;
+	margin-top: 1em;
+	background: #edbd3d;
+	outline: none;
+}
+
+#action:hover {
+	background-color: #e8aa20;
+}
+
+#hero, html {
+	background: url("../images/honeycomb_bee_background.jpg");
+	max-width: 100%;
+    max-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+#slogan{
+	font-family: 'PT Serif', serif;
+	font-size: 4em;
+	margin-bottom: 20px;
+}
+@media only screen and (max-width: 700px) {
+	a {
+		float: none;
+		width: auto;
+	}
+
+	h2 {
+	font-size: 1.9em;
+	padding: 1em;
+	}
+	h3  {
+		font-size: 1.2em;
+	}
+	#action {
+		font-size: 2.3em;
+	}
+	#slogan {
+		font-size: 3em;
+	}
+}
+
+@media only screen and (max-width: 390px) {
+	h2 {
+	font-size: 1.5em;
+	padding: 1em;
+	}
+	h3 {
+	font-size: .9em;	
+	}
+	#action {
+		font-size: 2em;
+	}
+	#slogan {
+		font-size: 2em;
+	}
+}
