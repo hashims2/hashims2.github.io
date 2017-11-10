@@ -1,0 +1,193 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif);
+* {margin:0;padding:0;box-sizing: border-box;}
+body {
+	margin: 0px;
+	min-height: 100%;
+	width: 100%;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	background-size: cover;
+	text-align:center;
+	color: #fff;
+}
+
+a {
+	font-family: 'PT Serif', serif;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1em;
+	display: inline-block;
+	padding: .75em;
+	/* background: #edbd3d; */
+	/* outline: .25em solid #f3d05b; */
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+a:hover {
+	background-color: #e8aa20;
+}
+
+h2 {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.5em;
+	margin-top: 1;
+}
+
+p {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.7em;
+}
+
+header {
+	background-color: #f3d05b;
+	border: none;
+}
+header img {
+    float: left;
+    width: 7em;
+    margin: 1em;
+}
+nav {
+	background-color: none;
+	border: none;
+	/* padding: 1em; */
+	float: right;
+	margin: 1em;
+}
+footer {
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	font-size: .5em;
+	/* background-color: #2a2a2a; */
+	border: none;
+	padding: .5em;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+div {
+	background-color: #FFE2B8;
+	border: none;
+	padding: 20px;
+}
+#hum {
+	width: 21em;
+    margin: 0em;
+}
+
+#action{
+	font-family: 'PT Serif', sans-serif;
+	color: #fff;
+	text-decoration: none;
+	font-size: 2em;
+	display: inline-block;
+	float: none;
+	padding: .5em;
+	margin-top: .5em;
+	background: #edbd3d;
+	outline: none;
+}
+
+#action:hover {
+	background-color: #e8aa20;
+}
+
+#hero {
+	background: url("../images/honeycomb_bee_background.jpg");
+	max-width: 100%;
+	max-height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+	height: 100vh;
+	padding-top: 10em;
+}
+
+#slogan{
+	font-family: 'PT Serif', serif;
+	font-size: 2.75em;
+	margin-bottom: 1em;
+}
+@media only screen and (max-width: 770px) {
+	a {
+		display: block;
+		padding: .25em;
+		font-size: 1em;
+		padding: .25em;
+	}
+	nav {
+	margin: .5em;
+}
+	#hum {
+	width: 18em;
+    margin: 0em;
+    padding: 0em;
+	}
+	header img {
+	visibility: hidden;
+	}
+	#slogan {
+	font-size: 2em;
+	}
+	h2 {
+	font-size: 1.25em;
+	padding: .25em;
+	}
+	#action {
+		font-size: 1.75em;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	
+	#hum {
+	width: 14em;
+    margin: 0em;
+    padding: 0em;
+	}
+
+	#slogan {
+		font-size: 1.75em;
+	}
+
+	h2 {
+	font-size: 1em;
+	padding: .5em;
+	}
+
+	#action {
+		font-size: 1.5em;
+	}
+
+}
+
+@media only screen and (max-width: 390px) {
+	
+	#hum {
+	width: 10em;
+    margin: 0em;
+    padding: 0em;
+	}
+
+	#slogan {
+		font-size: 1.25em;
+	}
+
+	h2 {
+	font-size: .75em;
+	padding: .5em;
+	}
+
+	#action {
+		font-size: 1em;
+	}
+}
